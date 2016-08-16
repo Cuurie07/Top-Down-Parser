@@ -1,0 +1,39 @@
+0: bipush 61
+2: istore_1
+3: iconst_1
+4: istore_2
+5: iload_2
+6: iload_2
+7: imul
+8: iload_1
+9: if_icmpge
+12: istore 5
+14: iload_2
+15: iconst_1
+16: iadd
+17: istore_2
+18: iconst_2
+19: istore_3
+20: iconst_1
+21: istore 4
+23: iload_3
+24: iload_2
+25: iconst_1
+26: iadd
+27: if_icmpge
+31: iload 4
+33: istore 4
+35: iload_1
+36: iload_3
+37: idiv
+38: iload_3
+39: imul
+40: iload_1
+41: if_cmpneq
+42: iconst_0
+43: istore 4
+45: iload_3
+46: iconst_1
+47: iadd
+48: istore_3
+49: return

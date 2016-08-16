@@ -1,0 +1,20 @@
+0: bipush 121
+2: istore_1
+3: sipush 132
+6: istore_2
+7: iload_1
+8: iload_2
+9: if_cmpeq
+10: istore_3
+11: iload_1
+12: iload_2
+13: if_icmple
+16: iload_1
+17: iload_2
+18: isub
+19: istore_1
+20: iload_2
+21: iload_1
+22: isub
+23: istore_2
+24: return

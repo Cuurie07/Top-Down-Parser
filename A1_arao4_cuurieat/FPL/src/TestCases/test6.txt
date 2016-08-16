@@ -1,0 +1,25 @@
+0: iconst_1
+1: istore_1
+2: bipush 111
+4: istore_2
+5: sipush 11111
+8: istore_3
+9: iload_1
+10: iload_2
+11: if_icmpge
+14: iload_2
+15: iload_3
+16: if_icmpge
+19: iload_3
+20: istore 4
+22: iload_2
+23: istore 4
+25: iload_1
+26: iload_3
+27: if_icmpge
+30: iload_3
+31: istore 4
+33: iload_1
+34: istore 4
+36: return
+
